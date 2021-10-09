@@ -1,0 +1,21 @@
+/*    BUTTON   */
+
+.btn{
+    cursor: pointer;
+    @include text(24px, $textColorLight);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    padding: 22px 39px;
+    border: none;
+    border-radius: $btnBorderRadius;
+    -webkit-border-radius: $btnBorderRadius;;
+    -moz-border-radius: $btnBorderRadius;;
+    -ms-border-radius: $btnBorderRadius;;
+    -o-border-radius: $btnBorderRadius;;
+}
+
+.btn--green-bg{
+    background-color: $btnBackColor;
+}

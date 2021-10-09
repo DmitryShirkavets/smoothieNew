@@ -1,0 +1,14 @@
+
+.payment{
+    &__title{
+        font-size: 26px;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px ;
+    }
+}

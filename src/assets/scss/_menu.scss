@@ -1,0 +1,14 @@
+/*    MENU    */
+
+.menu{
+    &__list{
+        display: flex;
+        gap: 0 35px;
+        text-transform: uppercase;
+    }
+    
+    &__link{
+        @include text(16px, $textColorLight);
+    }
+}
+

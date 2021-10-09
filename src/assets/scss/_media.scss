@@ -1,0 +1,285 @@
+/*    ADAPTIVE    */
+
+/*      768px    */
+
+@media screen and (max-width: 768px) {
+
+    /*    HEADER    */
+
+    .header__burger-btn{
+        display: block;
+        z-index: 2;
+    }
+
+    .header__navigation {
+        display: none;
+        background-color: #0aa566;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        align-items: center; 
+    }
+
+    .menu__list {
+        flex-direction: column;
+        height: 500px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu__link {
+        font-size: 2rem;   
+    }
+
+    .header__right-block {
+        margin: 100px 0 150px;
+    }
+
+    /*    SMOOTHIES    */
+
+    .smoothies__container{
+        margin-top: 50px;
+    }
+
+    .smoothies__title{
+        font-size: 1.8rem;
+    }
+
+    .smoothies__text {
+        font-size: 1rem;
+    }
+
+    .variety__list-item{
+        min-width: 48%;
+    }
+
+    .variety__list-item:nth-child(1n){
+        border-style: none solid solid none;
+    }
+
+    .variety__list-item:nth-child(2n){
+        border-style: none none solid none;
+    }
+
+    .variety__list-item:nth-last-child(2){
+        border-style: none solid none none;
+    }
+
+    .variety__list-item:last-child{
+        border: none;
+    }
+
+    /*    ABOUT    */
+
+    .about__container{
+        width: 90%;
+        display: block;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    
+    .about__img{
+        position: static;
+        width: 100%;
+    }
+
+    .about__content{
+        width: auto;
+    }
+
+    .about__content::before{
+        top: 30%;
+        left: 48%;
+    }
+
+    /*    PRODUCTS    */
+
+    .products{
+        overflow: auto;
+    }
+
+    .products__list{
+        width: 1920px;
+    }
+
+    /*    STORY    */
+
+    .story__container{
+        width: 90%;
+        margin: 90px auto 80px;
+        flex-direction: column;
+    }
+
+    .story__content{
+        width: auto;
+        margin-bottom: 80px;
+    }
+
+    .story__images{
+        width: auto;
+    }
+
+    .story__title{
+        margin-top: 0;
+    }
+
+    /*    TESTIMONIALS */
+
+    .testimonials::after{
+        display: none;
+    }
+
+    .testimonials__container{
+        width: 90%;
+    }
+
+    .testimonials__back{
+        left: 50%;
+        top: 62%;
+        font-size: 10rem;
+    }
+
+    .testimonials__content{
+        flex-direction: column-reverse;
+    }
+
+    .testimonials__text{
+        margin: 0;
+        margin-top: 85px;
+    }
+
+    /*    BLOG    */
+
+    .blog__container{
+        width: 90%;
+    }
+
+    .art__content{
+        flex-direction: column;
+    }
+
+    .art__info::after{
+        display: none;
+    }
+
+    .art__info, .art__img{
+        width: 100%;
+    }
+
+    /*    INSTAGRAM    */
+
+    .instagram{
+        align-items: unset;
+    }
+
+    .instagram__list{
+        width: 1900px;
+        overflow-x: auto;
+    }
+
+    /*    FOOTER    */
+
+    .footer__container{
+        flex-direction: column;
+        padding-top: 70px;
+    }
+
+    .footer__top{
+        height: auto;
+    }
+
+    .footer__logo{
+        margin-bottom: 70px;
+    }
+
+    .footer__content{
+        width: 100%;
+        justify-content: space-around;
+        margin-bottom: 85px;
+    }
+}
+
+/*    360    */
+
+@media screen and (max-width: 768px){
+
+    /*    SMOOTHIES    */
+
+    .smoothies__title{
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .variety__list-item{
+        min-width: 49.5%;
+        font-size: 1rem;
+    }
+
+    /*    ABOUT    */
+
+    .about__content{
+        padding-top: 50px;
+        padding-left: 0;
+    }
+
+    .about__title{
+        font-size: 2.5rem;
+    }
+    
+    .about__list{
+        font-size: 1.3rem;
+    }
+
+    .about__content::before{
+        display: none;
+    }
+
+    .about__btn{
+        font-size: 1.2rem;
+        min-width: 100%;
+    }
+
+    /*    PRODUCTS    */
+
+    .products__list{
+        width: 1200px;
+    }
+
+    .products__title{
+        font-size: 1.35rem;
+    }
+
+    /*    STORY    */
+
+    .story__img-second{
+        display: none;
+    }
+
+    /*    BLOG    */
+
+    .art__info, .art__info-text{
+        margin-left: 0;
+    }
+
+    .story__images, .story__img-first{
+        width: 100%;
+    }
+
+    .art__info-text{
+        font-size: 1.03rem;
+    }
+
+
+
+
+
+
+    .testimonials, .footer{
+        display: none;
+    }
+}
